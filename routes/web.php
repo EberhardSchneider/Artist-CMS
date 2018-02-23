@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('site.welcome', [ 'title' => 'Ebi']);
+})->name('site.welcome');
